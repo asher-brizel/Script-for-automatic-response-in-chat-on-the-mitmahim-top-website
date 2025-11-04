@@ -36,3 +36,12 @@ jobs:
         name: replied-chats-log
         path: replied_chats_*.json
         retention-days: 30
+
+    
+    - name: Upload replied chats log
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: replied-chats-log
+        path: replied_chats_*.json
+        retention-days: 30
