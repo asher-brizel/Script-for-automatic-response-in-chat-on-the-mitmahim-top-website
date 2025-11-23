@@ -348,7 +348,7 @@ def main():
     # הגדרת פרטי התחברות - ערוך את הערכים כאן
     username = "טשיקאוור ניוז"
     password = "0501516abr"
-    auto_reply = "אין לי אפשרות לענות בצ'אט, אני זמין רק במייל, המייל שלי הוא gute.0556705393@gmail.com "
+    auto_reply = "אין לי אפשרות לענות בצ'אט, אני זמין רק במייל, המייל שלי הוא z0556705393@outlook.co.il "
     
     if not username or username == "YOUR_USERNAME":
         print("שגיאה: יש לערוך את שם המשתמש והסיסמה בקוד")
@@ -369,5 +369,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
